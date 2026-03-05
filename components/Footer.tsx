@@ -11,12 +11,11 @@
         </div>
         <div>
           <h4 className="text-sm font-semibold text-amber-100">Alamat</h4>
-          <p className="mt-2 text-sm text-amber-50/80">Jl. Panglima Polim No. 12, Jakarta Selatan</p>
+          <p className="mt-2 text-sm text-amber-50/80">Jl. Bunga Raya Jl. Baloi Persero No.57, Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau</p>
         </div>
         <div>
           <h4 className="text-sm font-semibold text-amber-100">Jam Buka</h4>
-          <p className="mt-2 text-sm text-amber-50/80">Senin - Jumat: 11.00 - 22.00</p>
-          <p className="text-sm text-amber-50/80">Sabtu - Minggu: 10.00 - 23.00</p>
+          <p className="mt-2 text-sm text-amber-50/80">Setiap hari: 11.00 - 21.00</p>
         </div>
         <div>
           <h4 className="text-sm font-semibold text-amber-100">Sosial Media</h4>

@@ -16,22 +16,22 @@ const waOrderLink = buildWhatsAppLink(whatsappNumber, "Halo Noods Lab, saya mau 
 
 const services = [
   {
-    image: "/images/menu/tonkotsu-signature.jpg",
+    image: "/images/menu/ori-men.jpg",
     title: "Ramen Area",
     text: "Signature ramen dengan kuah rich, topping premium, dan plating khas Noods Lab.",
   },
   {
-    image: "/images/menu/beef-yakiniku-bowl.jpg",
+    image: "/images/foto-interior-1.png",
     title: "Rice Bowl Area",
     text: "Pilihan rice bowl gurih untuk menu cepat, mengenyangkan, dan tetap premium-casual.",
   },
   {
-    image: "/images/menu/yuzu-spark.jpg",
+    image: "/images/foto-interior-2.png",
     title: "Drinks Area",
     text: "Minuman segar dari ocha hingga yuzu spark untuk pairing menu favoritmu.",
   },
   {
-    image: "/images/menu/gyoza-crispy.jpg",
+    image: "/images/foto-eksterior-1.png",
     title: "Special Offers",
     text: "Promo combo dan bundling mingguan untuk dine-in maupun takeaway.",
   },
@@ -49,7 +49,7 @@ export default function HomePage() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "linear-gradient(to bottom, rgba(5, 15, 10, 0.68), rgba(5, 15, 10, 0.88)), url('https://images.unsplash.com/photo-1610091824843-52f2f34f98d6?auto=format&fit=crop&w=2000&q=80')",
+              "linear-gradient(to bottom, rgba(5, 15, 10, 0.68), rgba(5, 15, 10, 0.88)), url('/images/foto-logo-1.png')",
           }}
         />
 
@@ -119,6 +119,21 @@ export default function HomePage() {
                 </Link>
               </article>
             ))}
+          </div>
+
+          <div className="mt-10 grid gap-4 md:grid-cols-2">
+            <div className="overflow-hidden rounded-sm border border-zinc-300 bg-white shadow-soft">
+              <div className="relative h-64 w-full">
+                <Image src="/images/foto-interior-1.png" alt="Interior Noods Lab" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <p className="border-t border-zinc-200 px-4 py-3 text-sm font-medium text-zinc-700">Foto Interior Noods Lab</p>
+            </div>
+            <div className="overflow-hidden rounded-sm border border-zinc-300 bg-white shadow-soft">
+              <div className="relative h-64 w-full">
+                <Image src="/images/foto-eksterior-1.png" alt="Eksterior Noods Lab" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+              </div>
+              <p className="border-t border-zinc-200 px-4 py-3 text-sm font-medium text-zinc-700">Foto Eksterior Noods Lab</p>
+            </div>
           </div>
         </div>
       </section>
