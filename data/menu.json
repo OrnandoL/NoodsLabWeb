@@ -1,162 +1,122 @@
 [
   {
-    "id": "m001",
+    "id": "r001",
     "category": "Ramen",
-    "name": "Tonkotsu Signature",
-    "description": "Kuah tonkotsu creamy dengan chashu ayam, ajitama, dan nori.",
-    "price": 52000,
-    "tags": ["creamy", "signature"],
-    "isBestSeller": true,
-    "image": "/images/menu/tonkotsu-signature.jpg"
-  },
-  {
-    "id": "m002",
-    "category": "Ramen",
-    "name": "Miso Butter Ramen",
-    "description": "Kuah miso gurih dengan jagung manis, butter, dan daun bawang.",
+    "name": "Ori Men",
+    "description": "Signature white chicken broth ramen, direbus lebih dari 24 jam. Varian harga: Chicken Chashu 49k, Beef Chashu 55k, Mix Topping 59k.",
     "price": 49000,
-    "tags": ["miso", "gurih"],
-    "isBestSeller": false,
-    "image": "/images/menu/miso-butter-ramen.jpg"
+    "tags": ["signature", "white chicken broth", "24 hours broth", "chashu 49/55/59"],
+    "isBestSeller": true,
+    "image": "/images/menu/ori-men.jpg"
   },
   {
-    "id": "m003",
+    "id": "r002",
     "category": "Ramen",
-    "name": "Spicy Tantanmen",
-    "description": "Kuah pedas creamy, daging ayam cincang, dan chili oil.",
-    "price": 54000,
-    "tags": ["pedas", "tantan"],
+    "name": "Oni Men",
+    "description": "Spicy white chicken broth ramen, direkomendasikan untuk pecinta ramen pedas. Level pedas 1-4. Varian harga: Chicken Chashu 49k, Beef Chashu 55k, Mix Topping 59k.",
+    "price": 49000,
+    "tags": ["spicy ramen", "level 1-4", "white chicken broth", "chashu 49/55/59"],
     "isBestSeller": true,
-    "image": "/images/menu/spicy-tantanmen.jpg"
+    "image": "/images/menu/oni-men.jpg"
   },
   {
-    "id": "m004",
+    "id": "r003",
     "category": "Ramen",
-    "name": "Shoyu Classic",
-    "description": "Ramen kuah shoyu jernih dengan topping ayam panggang.",
-    "price": 46000,
-    "tags": ["classic", "light"],
-    "isBestSeller": false,
-    "image": "/images/menu/shoyu-classic.jpg"
+    "name": "NL - Szechuan",
+    "description": "Special dry ramen dengan szechuan peppercorn dan black bean sauce. Level pedas 1-4. Varian harga: Chicken Chashu 49k, Beef Chashu 55k, Mix Topping 59k.",
+    "price": 49000,
+    "tags": ["special dry ramen", "szechuan peppercorn", "black bean sauce", "level 1-4", "chashu 49/55/59"],
+    "isBestSeller": true,
+    "image": "/images/menu/nl-szechuan.jpg"
   },
   {
-    "id": "m005",
+    "id": "r004",
     "category": "Ramen",
-    "name": "Chicken Paitan",
-    "description": "Kuah paitan kaya rasa dengan tekstur lembut dan umami tinggi.",
-    "price": 50000,
-    "tags": ["umami", "rich"],
-    "isBestSeller": true,
-    "image": "/images/menu/chicken-paitan.jpg"
-  },
-  {
-    "id": "m006",
-    "category": "Rice Bowl",
-    "name": "Teriyaki Chicken Bowl",
-    "description": "Nasi hangat dengan ayam teriyaki, wijen, dan salad segar.",
-    "price": 42000,
-    "tags": ["rice", "teriyaki"],
+    "name": "Shoyu Men",
+    "description": "Kombinasi homemade soy sauce dan white chicken broth 24 jam, dengan rasa sedikit lebih asin. Varian harga: Chicken Chashu 49k, Beef Chashu 55k, Mix Topping 59k.",
+    "price": 49000,
+    "tags": ["shoyu", "homemade soy sauce", "slightly saltier", "chashu 49/55/59"],
     "isBestSeller": false,
-    "image": "/images/menu/teriyaki-chicken-bowl.jpg"
+    "image": "/images/menu/shoyu-men.jpg"
   },
   {
-    "id": "m007",
-    "category": "Rice Bowl",
-    "name": "Beef Yakiniku Bowl",
-    "description": "Irisan beef yakiniku manis-gurih dengan bawang bombai.",
-    "price": 47000,
-    "tags": ["beef", "savory"],
-    "isBestSeller": true,
-    "image": "/images/menu/beef-yakiniku-bowl.jpg"
-  },
-  {
-    "id": "m008",
-    "category": "Rice Bowl",
-    "name": "Katsu Curry Bowl",
-    "description": "Chicken katsu renyah dengan saus kari Jepang yang mild.",
-    "price": 45000,
-    "tags": ["katsu", "curry"],
-    "isBestSeller": false,
-    "image": "/images/menu/katsu-curry-bowl.jpg"
-  },
-  {
-    "id": "m009",
-    "category": "Rice Bowl",
-    "name": "Egg Mayo Mentai Bowl",
-    "description": "Nasi dengan saus mentai creamy, tamago, dan nori flakes.",
-    "price": 39000,
-    "tags": ["mentai", "creamy"],
-    "isBestSeller": false,
-    "image": "/images/menu/egg-mayo-mentai-bowl.jpg"
-  },
-  {
-    "id": "m010",
+    "id": "s001",
     "category": "Side Dish",
-    "name": "Gyoza Crispy",
-    "description": "Gyoza isi ayam 5 pcs dengan saus soy-vinegar.",
-    "price": 28000,
-    "tags": ["gyoza", "crispy"],
-    "isBestSeller": true,
-    "image": "/images/menu/gyoza-crispy.jpg"
-  },
-  {
-    "id": "m011",
-    "category": "Side Dish",
-    "name": "Karaage Pop",
-    "description": "Potongan ayam karaage renyah dengan spicy mayo.",
-    "price": 30000,
-    "tags": ["karaage", "snack"],
-    "isBestSeller": false,
-    "image": "/images/menu/karaage-pop.jpg"
-  },
-  {
-    "id": "m012",
-    "category": "Side Dish",
-    "name": "Tamago Mentai",
-    "description": "Telur gulung lembut dengan drizzle saus mentai.",
-    "price": 26000,
-    "tags": ["tamago", "mentai"],
-    "isBestSeller": false,
-    "image": "/images/menu/tamago-mentai.jpg"
-  },
-  {
-    "id": "m013",
-    "category": "Side Dish",
-    "name": "Seaweed Salad",
-    "description": "Salad rumput laut segar dengan sesame dressing.",
-    "price": 24000,
-    "tags": ["fresh", "light"],
-    "isBestSeller": false,
-    "image": "/images/menu/seaweed-salad.jpg"
-  },
-  {
-    "id": "m014",
-    "category": "Beverage",
-    "name": "Iced Ocha",
-    "description": "Teh ocha dingin tanpa gula, segar menemani ramen.",
-    "price": 12000,
-    "tags": ["tea", "refreshing"],
-    "isBestSeller": false,
-    "image": "/images/menu/iced-ocha.jpg"
-  },
-  {
-    "id": "m015",
-    "category": "Beverage",
-    "name": "Yuzu Spark",
-    "description": "Minuman soda yuzu dengan rasa citrus yang ringan.",
-    "price": 18000,
-    "tags": ["citrus", "sparkling"],
-    "isBestSeller": true,
-    "image": "/images/menu/yuzu-spark.jpg"
-  },
-  {
-    "id": "m016",
-    "category": "Beverage",
-    "name": "Matcha Latte",
-    "description": "Matcha latte creamy dengan aroma teh hijau premium.",
+    "name": "Tori Karaage",
+    "description": "Ayam karaage renyah dengan saus pendamping.",
     "price": 22000,
-    "tags": ["matcha", "latte"],
+    "tags": ["fried", "chicken", "crispy"],
+    "isBestSeller": true,
+    "image": "/images/menu/tori-karaage.jpg"
+  },
+  {
+    "id": "s002",
+    "category": "Side Dish",
+    "name": "Szechuan Tori Karaage",
+    "description": "Tori karaage dengan sentuhan rasa szechuan.",
+    "price": 22000,
+    "tags": ["szechuan", "chicken", "spicy"],
     "isBestSeller": false,
-    "image": "/images/menu/matcha-latte.jpg"
+    "image": "/images/menu/szechuan-tori-karaage.jpg"
+  },
+  {
+    "id": "s003",
+    "category": "Side Dish",
+    "name": "Deep Fry Gyoza",
+    "description": "Gyoza goreng renyah disajikan dengan dipping sauce.",
+    "price": 19000,
+    "tags": ["gyoza", "fried", "crispy"],
+    "isBestSeller": true,
+    "image": "/images/menu/deep-fry-gyoza.jpg"
+  },
+  {
+    "id": "s004",
+    "category": "Side Dish",
+    "name": "Yakitori",
+    "description": "Sate ayam ala Jepang dengan bumbu gurih manis.",
+    "price": 19000,
+    "tags": ["grilled", "chicken", "japanese"],
+    "isBestSeller": false,
+    "image": "/images/menu/yakitori.jpg"
+  },
+  {
+    "id": "s005",
+    "category": "Side Dish",
+    "name": "Ebi Furai",
+    "description": "Udang goreng tepung renyah dengan saus.",
+    "price": 19000,
+    "tags": ["shrimp", "fried", "crispy"],
+    "isBestSeller": false,
+    "image": "/images/menu/ebi-furai.jpg"
+  },
+  {
+    "id": "s006",
+    "category": "Side Dish",
+    "name": "Szechuan Tori Kawa Karaage",
+    "description": "Kulit ayam goreng dengan bumbu szechuan pedas gurih.",
+    "price": 20000,
+    "tags": ["chicken skin", "szechuan", "spicy"],
+    "isBestSeller": false,
+    "image": "/images/menu/szechuan-tori-kawa-karaage.jpg"
+  },
+  {
+    "id": "s007",
+    "category": "Side Dish",
+    "name": "Kinoko Katsu",
+    "description": "Katsu jamur dengan tekstur renyah di luar dan lembut di dalam.",
+    "price": 15000,
+    "tags": ["mushroom", "katsu", "vegetarian-friendly"],
+    "isBestSeller": false,
+    "image": "/images/menu/kinoko-katsu.jpg"
+  },
+  {
+    "id": "s008",
+    "category": "Side Dish",
+    "name": "Steam Fry Gyoza",
+    "description": "Gyoza steam-fry dengan lapisan tipis crispy.",
+    "price": 19000,
+    "tags": ["gyoza", "steam-fry", "savory"],
+    "isBestSeller": true,
+    "image": "/images/menu/steam-fry-gyoza.jpg"
   }
 ]

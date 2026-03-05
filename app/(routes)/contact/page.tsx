@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 const mapEmbedUrl =
   process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL?.trim() ||
-  "https://www.google.com/maps?q=Blok%20M%20Jakarta&output=embed";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0412495401947!2d104.0064258109531!3d1.1308328470117495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98900592c43b3%3A0x740a3882402ccbda!2sNoodslab!5e0!3m2!1sen!2sid!4v1772697975382!5m2!1sen!2sid";
 const mapsPublicUrl = "https://maps.app.goo.gl/WkTpBuPgrr3VgYwc9";
 
 const waLink = buildWhatsAppLink(
