@@ -1,0 +1,162 @@
+[
+  {
+    "id": "m001",
+    "category": "Ramen",
+    "name": "Tonkotsu Signature",
+    "description": "Kuah tonkotsu creamy dengan chashu ayam, ajitama, dan nori.",
+    "price": 52000,
+    "tags": ["creamy", "signature"],
+    "isBestSeller": true,
+    "image": "/images/menu/tonkotsu-signature.jpg"
+  },
+  {
+    "id": "m002",
+    "category": "Ramen",
+    "name": "Miso Butter Ramen",
+    "description": "Kuah miso gurih dengan jagung manis, butter, dan daun bawang.",
+    "price": 49000,
+    "tags": ["miso", "gurih"],
+    "isBestSeller": false,
+    "image": "/images/menu/miso-butter-ramen.jpg"
+  },
+  {
+    "id": "m003",
+    "category": "Ramen",
+    "name": "Spicy Tantanmen",
+    "description": "Kuah pedas creamy, daging ayam cincang, dan chili oil.",
+    "price": 54000,
+    "tags": ["pedas", "tantan"],
+    "isBestSeller": true,
+    "image": "/images/menu/spicy-tantanmen.jpg"
+  },
+  {
+    "id": "m004",
+    "category": "Ramen",
+    "name": "Shoyu Classic",
+    "description": "Ramen kuah shoyu jernih dengan topping ayam panggang.",
+    "price": 46000,
+    "tags": ["classic", "light"],
+    "isBestSeller": false,
+    "image": "/images/menu/shoyu-classic.jpg"
+  },
+  {
+    "id": "m005",
+    "category": "Ramen",
+    "name": "Chicken Paitan",
+    "description": "Kuah paitan kaya rasa dengan tekstur lembut dan umami tinggi.",
+    "price": 50000,
+    "tags": ["umami", "rich"],
+    "isBestSeller": true,
+    "image": "/images/menu/chicken-paitan.jpg"
+  },
+  {
+    "id": "m006",
+    "category": "Rice Bowl",
+    "name": "Teriyaki Chicken Bowl",
+    "description": "Nasi hangat dengan ayam teriyaki, wijen, dan salad segar.",
+    "price": 42000,
+    "tags": ["rice", "teriyaki"],
+    "isBestSeller": false,
+    "image": "/images/menu/teriyaki-chicken-bowl.jpg"
+  },
+  {
+    "id": "m007",
+    "category": "Rice Bowl",
+    "name": "Beef Yakiniku Bowl",
+    "description": "Irisan beef yakiniku manis-gurih dengan bawang bombai.",
+    "price": 47000,
+    "tags": ["beef", "savory"],
+    "isBestSeller": true,
+    "image": "/images/menu/beef-yakiniku-bowl.jpg"
+  },
+  {
+    "id": "m008",
+    "category": "Rice Bowl",
+    "name": "Katsu Curry Bowl",
+    "description": "Chicken katsu renyah dengan saus kari Jepang yang mild.",
+    "price": 45000,
+    "tags": ["katsu", "curry"],
+    "isBestSeller": false,
+    "image": "/images/menu/katsu-curry-bowl.jpg"
+  },
+  {
+    "id": "m009",
+    "category": "Rice Bowl",
+    "name": "Egg Mayo Mentai Bowl",
+    "description": "Nasi dengan saus mentai creamy, tamago, dan nori flakes.",
+    "price": 39000,
+    "tags": ["mentai", "creamy"],
+    "isBestSeller": false,
+    "image": "/images/menu/egg-mayo-mentai-bowl.jpg"
+  },
+  {
+    "id": "m010",
+    "category": "Side Dish",
+    "name": "Gyoza Crispy",
+    "description": "Gyoza isi ayam 5 pcs dengan saus soy-vinegar.",
+    "price": 28000,
+    "tags": ["gyoza", "crispy"],
+    "isBestSeller": true,
+    "image": "/images/menu/gyoza-crispy.jpg"
+  },
+  {
+    "id": "m011",
+    "category": "Side Dish",
+    "name": "Karaage Pop",
+    "description": "Potongan ayam karaage renyah dengan spicy mayo.",
+    "price": 30000,
+    "tags": ["karaage", "snack"],
+    "isBestSeller": false,
+    "image": "/images/menu/karaage-pop.jpg"
+  },
+  {
+    "id": "m012",
+    "category": "Side Dish",
+    "name": "Tamago Mentai",
+    "description": "Telur gulung lembut dengan drizzle saus mentai.",
+    "price": 26000,
+    "tags": ["tamago", "mentai"],
+    "isBestSeller": false,
+    "image": "/images/menu/tamago-mentai.jpg"
+  },
+  {
+    "id": "m013",
+    "category": "Side Dish",
+    "name": "Seaweed Salad",
+    "description": "Salad rumput laut segar dengan sesame dressing.",
+    "price": 24000,
+    "tags": ["fresh", "light"],
+    "isBestSeller": false,
+    "image": "/images/menu/seaweed-salad.jpg"
+  },
+  {
+    "id": "m014",
+    "category": "Beverage",
+    "name": "Iced Ocha",
+    "description": "Teh ocha dingin tanpa gula, segar menemani ramen.",
+    "price": 12000,
+    "tags": ["tea", "refreshing"],
+    "isBestSeller": false,
+    "image": "/images/menu/iced-ocha.jpg"
+  },
+  {
+    "id": "m015",
+    "category": "Beverage",
+    "name": "Yuzu Spark",
+    "description": "Minuman soda yuzu dengan rasa citrus yang ringan.",
+    "price": 18000,
+    "tags": ["citrus", "sparkling"],
+    "isBestSeller": true,
+    "image": "/images/menu/yuzu-spark.jpg"
+  },
+  {
+    "id": "m016",
+    "category": "Beverage",
+    "name": "Matcha Latte",
+    "description": "Matcha latte creamy dengan aroma teh hijau premium.",
+    "price": 22000,
+    "tags": ["matcha", "latte"],
+    "isBestSeller": false,
+    "image": "/images/menu/matcha-latte.jpg"
+  }
+]
