@@ -8,7 +8,7 @@ import type { MenuItem } from "@/types/menu";
 
 const mapEmbedUrl =
   process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_URL?.trim() ||
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0412495401947!2d104.0064258109531!3d1.1308328470117495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98900592c43b3%3A0x740a3882402ccbda!2sNoodslab!5e0!3m2!1sen!2sid!4v1772697975382!5m2!1sen!2sid";
+  "https://maps.app.goo.gl/jAeZqY6H6o2kVgYcA";
 const mapsPublicUrl = "https://maps.app.goo.gl/WkTpBuPgrr3VgYwc9";
 
 const whatsappNumber = process.env.NEXT_PUBLIC_WA_NUMBER || "6280000000000";
@@ -128,7 +128,7 @@ export default function HomePage() {
           <div>
             <h2 className="font-display text-5xl leading-none text-[#264334] sm:text-6xl">Traditional Recipes</h2>
             <p className="mt-4 text-sm leading-7 text-zinc-700">
-              Kami meracik kuah, tare, dan topping dengan pendekatan terukur agar kualitas rasa selalu stabil. Karakter menu dibuat kaya, hangat, dan tetap bersih di aftertaste.
+              Kami meracik kuah, mie, dan topping dengan pendekatan terukur agar kualitas rasa selalu stabil. Karakter menu dibuat kaya, hangat, dan tetap bersih di aftertaste.
             </p>
             <p className="mt-3 text-sm leading-7 text-zinc-700">
               Konsep premium-casual membuat Noods Lab cocok untuk lunch cepat, dinner santai, maupun kumpul akhir pekan.
@@ -167,8 +167,8 @@ export default function HomePage() {
         <div className="container-app">
           <div className="mx-auto max-w-xl text-center">
             <h2 className="plaque-title">COME IN</h2>
-            <p className="mt-4 text-2xl font-semibold text-[#264334]">Noods Lab Jakarta</p>
-            <p className="mt-1 text-sm text-zinc-600">Jl. Panglima Polim No. 12, Jakarta Selatan</p>
+            <p className="mt-4 text-2xl font-semibold text-[#264334]">Noods Lab Ramen</p>
+            <p className="mt-1 text-sm text-zinc-600">Jl. Bunga Raya Jl. Baloi Persero No.57, Baloi Indah, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau</p>
           </div>
 
           <div className="mx-auto mt-10 grid max-w-4xl items-center gap-6 text-center md:grid-cols-[1fr_auto_1fr]">
