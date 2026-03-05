@@ -97,7 +97,7 @@ export default function HomePage() {
       <section className="paper-texture section-pad">
         <div className="container-app">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="plaque-title">BON APPETIT!</h2>
+            <h2 className="plaque-title">ラーメンの実験</h2>
             <p className="mt-4 text-sm text-zinc-600 sm:text-base">
               Nikmati signature ramen, rice bowl, side dish, dan minuman yang diracik dengan standar rasa konsisten.
             </p>
@@ -154,14 +154,14 @@ export default function HomePage() {
           </div>
           <div className="relative mx-auto h-80 w-full max-w-lg">
             <div className="absolute left-3 top-7 h-52 w-44 overflow-hidden border-4 border-white bg-zinc-200 shadow-soft">
-              <Image src="/images/menu/chicken-paitan.jpg" alt="Chef plating dish" fill className="object-cover" sizes="220px" />
+              <Image src="/images/chef-make-noodles.jpg" alt="Chef plating dish" fill className="object-cover" sizes="220px" />
             </div>
             <div className="absolute right-8 top-0 h-56 w-48 overflow-hidden border-4 border-white bg-zinc-200 shadow-soft">
-              <Image src="/images/menu/spicy-tantanmen.jpg" alt="Chef portrait" fill className="object-cover" sizes="220px" />
+              <Image src="/images/chef-make-noodles2.jpg" alt="Chef portrait" fill className="object-cover" sizes="220px" />
             </div>
             <div className="absolute bottom-2 left-24 w-64 border border-[#bfae88] bg-[#efe4c8] p-4 shadow-soft">
               <p className="text-xs leading-relaxed text-[#6d5b39]">
-                Catatan dapur: waktu perebusan, komposisi tare, dan suhu plating dibuat konsisten agar karakter rasa tetap presisi.
+                Catatan dapur: waktu perebusan mie, komposisi bumbu, dan suhu plating dibuat konsisten agar karakter rasa tetap presisi.
               </p>
             </div>
           </div>
