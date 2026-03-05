@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { BackgroundMusic } from "@/components/BackgroundMusic";
 import type { ReactNode } from "react";
 
 const baseUrl = "https://noods-lab.example";
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="id">
       <body>
         <Navbar />
+        <BackgroundMusic />
         <main>{children}</main>
         <Footer />
       </body>
